@@ -4,11 +4,14 @@ class SQLadm extends Database {
     constructor() {
         super()
     }
-    criarDisciplina() {
-        this.pool.query(`
-    INSERT INTO professor (nome,matricula)
-    VALUES (?,?)
-`)
+    criarDisciplina(nomeDisciplina) {
+        const poolNovo = this.criarPool()
+        poolNovo.execute(`
+    INSERT INTO disciplina (nome)
+    VALUES (?)
+`, [nomeDisciplina])
     }
 }
+
+module.exports = SQLadm
 
