@@ -81,12 +81,9 @@ class Database {
     }
 
     criarTudo() {
-        this.criarBanco((err) => {
-            if (!err) {
-                this.criarPool();
-                this.criarTabelas();
-            }
-        });
+        this.criarBanco();
+        this.criarPool();
+        this.criarTabelas()
     }
 }
 
