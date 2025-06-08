@@ -1,5 +1,6 @@
 const express = require('express');
 const routes = require('../routes/admRout');
+const route1 = require('../routes/profRout');
 const cors = require('cors')
 const Database = require('../config/bd');
 const iniciar = new Database
@@ -14,7 +15,7 @@ app.use(cors({
     allowedHeaders: ['Content-Type']
 }))
 app.use(routes);
-
+app.use(route1);
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });

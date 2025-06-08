@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/interface/css/admin-style.css">
+    <link rel="stylesheet" href="/interface/css/button-style.css">
+    <link rel="stylesheet" href="/interface/css/profesor-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Professor</title>
+</head>
+<body>
+    <div class="containner" id="admin-containner">
+        <nav id="title">
+            <h1>Professor</h1>
+            <hr>
+        </nav>
+        <div class="corpo">
+        
+            <main class="perfil">
+                <h1>Perfil<ion-icon name="person-circle"></ion-icon></h1>
+                <!-- Utilizar o DOM nos 'P' -->
+                <h2>NOME:</h2>
+                <p>Teste</p>
+                <h2>Disciplina:</h2>
+                <p>Teste</p>
+            </main>
+
+            <main class="funcoes">
+                <h1>Funções</h1><br>
+                <a class="bt btc-func" id="btc-cad-aluno" href="cad-aluno.html">Cadastrar aluno</a><br>
+                <a class="bt btc-func" id="btc-cad-monitor">Cadastrar monitor</a><br>
+                <a class="bt btc-func" id="btc-cad-atvd">Escrever atividade</a>
+                <div id="corps">
+                      <a id="back" class="bt" href="/index.html"><ion-icon name="chevron-back"></ion-icon> VOLTAR </a>
+                  </div>
+            </main>
+
+        </div>
+
+    </div>
+
+    <script tipo="módulo" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomódulo src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ class Database {
         this.config = {
             host: 'localhost',
             user: 'root',
-            password: 'lucas16',
+            password: 'root',
             database: null
         };
         this.pool = null;

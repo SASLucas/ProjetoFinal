@@ -1,0 +1,12 @@
+.btc-func {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9932CC	;
+  color: white;
+  padding: 40px 30px 40px 30px;
+}
+
+.btc-func:hover {
+  background-color: 	#BA55D3;
+}
