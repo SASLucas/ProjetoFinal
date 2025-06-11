@@ -49,6 +49,18 @@ class Database {
                 matricula INT UNIQUE
             )
         `);
+         this.pool.query(`
+            CREATE TABLE IF NOT EXISTS atividades (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                conteudo VARCHAR(300)
+            )
+        `);
+        this.pool.query(`
+            CREATE TABLE IF NOT EXISTS plantao (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                data DATE
+            )
+        `);
 
         this.pool.query(`
             CREATE TABLE IF NOT EXISTS professor (

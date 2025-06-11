@@ -1,0 +1,193 @@
+body {
+  background-color: #9932CC;
+  background-image: url("/images/back.png");
+  background-size: cover;
+  background-position: center; 
+  height: 100vh; 
+  width: 100vw; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.containner {
+  border: 2px solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(5px); 
+  position: relative;
+  padding: 1% 5% 4% 5%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+#title ion-icon {
+  padding-left: 10px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    border: 3px 0px 0px 0px solid;
+    border-color: white;
+}
+
+#title h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+#corps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#corps a{
+  text-decoration: none;
+}
+
+#bt_aluno {
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+#bt_professor {
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 10px;
+}
+
+#bt_admin {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+#bt_monitor {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#back {
+  padding-left: 15px;
+  padding-right: 25px;
+  font-size: 10px;
+}
+
+.bt {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-decoration: none;
+  color: purple;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+.bt ion-icon {
+  padding-left: 10px;
+}
+
+.bt:hover {
+  transform: scale(1.2); 
+  transition: all 0.2s ease; 
+  cursor: pointer;
+}
+
+.corpo {
+  display: flex;
+  flex-direction: row;
+}
+
+.funcoes {
+  display: flex;
+  flex-direction: column;
+  padding-left: -50px;
+}
+
+.forum {
+  padding-left: 150px;
+  margin-left: 150px;
+  border-left: 2px solid #b8b8b8;
+}
+
+.funcoes a {
+  margin: 0px;
+}
+
+.perfil {
+  padding-right: 150px;
+  margin-right: 150px;
+  border-right: 2px solid #b8b8b8;
+}
+
+.corpo h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#admin-containner {
+  background-color: white;
+  color: #9932CC;
+}
+
+.ok {
+  color: rgb(41, 244, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-ok {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.atividade {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.atvd p {
+  max-width: 500px;
+  padding-left: 20px;
+}
+
+.atividade:hover {
+  box-shadow: rgba(240, 46, 170, 0.6) 0px 5px, rgba(240, 46, 170, 0.5) 0px 10px, rgba(240, 46, 170, 0.4) 0px 15px, rgba(240, 46, 170, 0.3) 0px 20px, rgba(240, 46, 170, 0.2) 0px 25px, rgba(240, 46, 170, 0.1) 0px 25px, rgba(240, 46, 170, 0.05) 0px 25px;
+    transform: scale(1.01); 
+  transition: all 0.2s ease;
+}

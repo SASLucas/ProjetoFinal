@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/button-style.css">
+    <link rel="stylesheet" href="/css/menu-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+     <script src="/script/script.js" defer></script>
+    <title>Admin</title>
+</head>
+<body>
+    <div class="containner" id="admin-containner">
+        <nav id="title">
+            <h1>Admin</h1>
+            <hr>
+        </nav>
+
+        <div class="check">
+            <p class="ok">Cadastrado com sucesso!<ion-icon name="checkmark-circle"></ion-icon></p>
+            <p class="not-ok">Não foi possivel Cadastrar<ion-icon name="close"></ion-icon></p>
+        </div>
+
+        <div class="corpo">
+            <main class="funcoes">
+                <h1>Cadastrar professor</h1><br>
+                <div id="corps">
+                    <forms class="cad" method="post">
+                        <input id="professor_nome" class="matricula func one" placeholder="Nome do professor" type="type="password"></input>
+
+                        <input id="disciplina" class="matricula func" placeholder="Disciplina do professor" type="type="password"></input>
+                        <input id="professor_matricula" class="matricula func" placeholder="Matricula do professor" type="type="password"></input>
+                            <button class="sub" onclick="clicar()">Clique aqui</button>
+
+                      </forms>
+                </div>
+                <div id="corps">
+                      <a id="back" class="bt" href="/html/admin.html"><ion-icon name="chevron-back"></ion-icon> VOLTAR </a>
+            
+            </main>
+        </div>
+        </div>
+
+    <script tipo="módulo" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomódulo src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
